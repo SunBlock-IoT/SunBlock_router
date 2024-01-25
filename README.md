@@ -40,6 +40,7 @@ python3 feature2model.py
 python3 capture.py ocsvm.dat X
 ```
 Replace `X` with a number of packets after which anomaly detection should be performed. E.g. X=1000 means anomaly classification is performed every 1000 packets. 
+
 5. To run the anomaly detector on already captured traffic, use the `classify.py` script with the .pcap file as input:
 ```bash
 python3 classify.py traffic.pcap
